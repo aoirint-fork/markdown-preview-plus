@@ -48,7 +48,7 @@ export class MathJaxController {
       Macros: this.userMacros,
       equationNumbers: this.mathJaxConfig.numberEquations
         ? {
-            autoNumber: 'AMS',
+            autoNumber: 'all',
             useLabelIds: false,
           }
         : {},
